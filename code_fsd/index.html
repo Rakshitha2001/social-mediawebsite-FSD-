@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="style/css">
+    <title>SooZoo</title>
+    <style>
+@import url("style.css");
+    </style>
+</head>
+<body class="body">
+    <nav class="nav">
+        <div class="container">
+            <h2 class="log">SooZoo</h2> 
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div> 
+            
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img class="img" src="img/pic1.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                    <img class="img" src="img/img2.jpg" alt="img">
+                    </div>
+                    <div class="handle">
+                        <h4>rakshitha</h4>
+                        <p class="text-muted">
+                            @pooja
+                        </p>
+                    </div>
+                </a>
+                <div class="sideabar">
+                    <a class="menu-item avtive">
+                        <span><i class="uil uil-home"></i></span><h3>Home</h3></span>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span><h3>EXplore</h3></span>
+                    </a>
+                    <a class="menu-item" id="notifications"
+                        <span><i class="uil uil-bell"><small class="notifications-count">9+</small></i></span><h3>Notification</h3></span>
+                            <div class="profile-photo">
+                                <img class="img" src="img/img3.jpg" alt="img">
+                            </div>
+                            <div class="Notification-body">
+                            <b>pooja</b>accepted your friend request
+                            <small class="text-muted">2 days ago</small>
+                        </div>
+                         </div>
+                         <div class="profile-popup">
+                                <img class="img" src="img/img4.jpg" alt="img">
+                            </div>
+                            <div class="Notification-body">
+                            <b>chandu</b>accepted your friend request
+                            <small class="text-muted">2 days ago</small>
+                        </div>
+                        <div class="profile-popup">
+                            <img class="img" src="img/img5.jpg" alt="img">
+                        </div>
+                        <div class="Notification-body">
+                        <b>rakshitha</b>commented on ur post 
+                        <small class=""text-muted">1 days ago</small>
+                    </div>
+                    </div>
+                    <div class="profile-popup">
+                        <img class="img" src="img/img6.jpg" alt="img">
+                    </div>
+                    <div class="Notification-body">
+                    <b>pooja</b>liked the post
+                    <small class=""text-muted">1 min ago</small>
+                </div>
+                <div class="profile-popup">
+                    <img class="img" src="img/img7.jpg" alt="img">
+                </div>
+                <div class="Notification-body">
+                <b>sanmith</b>tagged u in post
+                <small class=""text-muted">1 min ago</small>
+            </div>
+                    </a>
+                    <a class="menu-item"id="id="message-notification">
+                        <span><i class="uil uil-envelope"><small Class="notification-count">6</small></i></span><h3>Message</h3></span>
+                    </a>
+                    <a class="menu-item">
+                        <span><i cla ss="uil uil-bookmark"></i></span><h3>Bookmaker</h3></span>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span><h3>Analytics</h3></span>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span><h3>Theme</h3></span>
+                    </a>
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-setting"></i></span><h3>Setting</h3></span>
+                </a>
+                </div>
+                <label for="create-post" class="btn btn-primary">CreatePost</label>
+               
+                </div>
+
+            </div>
+            <div class="middle">
+                <div class="stories">
+                <div class="story">
+                    <div class="profile-photo"
+                    <img src="img/img11.jpeg">
+                </div>
+                <p class="name">poojashree</p>
+                </div><div class="story">
+                    <div class="profile-photo"
+                    <img src="img/img10.jpeg">
+                </div>
+                <p class="name">rakshitha</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo"
+                    <img src="img/img9.jpeg">
+                </div>
+                <p class="name">divya</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo"
+                    <img src="img/img16.jpeg">
+                </div>
+                <p class="name">chandu</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo"
+                    <img src="img/img17.jpeg">
+                </div>
+                <p class="name">rupa</p>
+                </div>
+                <!---end of stories-->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="img/img7.jpg/">
+                    </div>
+                    <input type="text" placeholder="what's up, chandu" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary">
+
+                </form>
+                <!----------FEEDS------------>
+                <div class="feeds">
+                     <!----------FEEDS 1--------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class=""user">
+                            <div class="profile-photo">
+                                <img src="img/img8.jpg">
+                            </div>
+                            <div class="ingo">
+                                <h3> sandy </h3>
+                                <small> Dubai, 15 minutes ago</small>
+                            </div>
+                            
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo"
+                        <image src="img/feeds1.jpg">
+
+                    </div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                             
+                        </div>
+                        <div class="Bookmaker">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="img/profil10.jpg"></span>
+                        <span><img src="img/profil4.jpg"></span>
+                        <span><img src="img/profil15.jpg"></span>
+                        <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+                    </div>
+                    <div class="caption">
+                        <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+                    </div>
+                    <div class="comments text-muted">view all 50 comments</div>
+                </div>
+            </div>
+
+            <div class="feed">
+                <div class="head">
+                    <div class=""user">
+                    <div class="profile-photo">
+                        <img src="img/img12.jpg">
+                    </div>
+                    <div class="ingo">
+                        <h3> pooja </h3>
+                        <small> bengaluru, 15 minutes ago</small>
+                    </div>
+                    
+                    </div>
+                    <span class="edit">
+                        <i class="uil uil-ellipsis-h"></i>
+                    </span>
+                </div>
+                <div class="photo"
+                <image src="img/feeds1.jpg">
+
+            </div>
+            <div class="action-button">
+                <div class="interaction-buttons">
+                    <span><i class="uil uil-heart"></i></span>
+                    <span><i class="uil uil-comment-dots"></i></span>
+                    <span><i class="uil uil-share-alt"></i></span>
+                     
+                </div>
+                <div class="Bookmaker">
+                    <span><i class="uil uil-bookmark-full"></i></span>
+
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="img/profil10.jpg"></span>
+                <span><img src="img/profil4.jpg"></span>
+                <span><img src="img/profil15.jpg"></span>
+                <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+            </div>
+            <div class="caption">
+                <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+            </div>
+            <div class="comments text-muted">view all 50 comments</div>
+        </div>
+
+        <div class="feed">
+            <div class="head">
+                <div class=""user">
+                <div class="profile-photo">
+                    <img src="img/img12.jpeg">
+                </div>
+                <div class="ingo">
+                    <h3> rakshitha </h3>
+                    <small> singapore, 15 minutes ago</small>
+                </div>
+                
+                </div>
+                <span class="edit">
+                    <i class="uil uil-ellipsis-h"></i>
+                </span>
+            </div>
+            <div class="photo"
+            <image src="img/feeds1.jpg">
+
+        </div>
+        <div class="action-button">
+            <div class="interaction-buttons">
+                <span><i class="uil uil-heart"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+                 
+            </div>
+            <div class="Bookmaker">
+                <span><i class="uil uil-bookmark-full"></i></span>
+
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="img/profil10.jpg"></span>
+            <span><img src="img/profil4.jpg"></span>
+            <span><img src="img/profil15.jpg"></span>
+            <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+        </div>
+        <div class="caption">
+            <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+        </div>
+        <div class="comments text-muted">view all 50 comments</div>
+    </div>
+
+    <div class="feed">
+        <div class="head">
+            <div class=""user">
+            <div class="profile-photo">
+                <img src="img/img12.jpg">
+            </div>
+            <div class="ingo">
+                <h3> chandu </h3>
+                <small> paris, 15 minutes ago</small>
+            </div>
+            
+            </div>
+            <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+            </span>
+        </div>
+        <div class="photo"
+        <image src="img/feeds1.jpg">
+
+    </div>
+    <div class="action-button">
+        <div class="interaction-buttons">
+            <span><i class="uil uil-heart"></i></span>
+            <span><i class="uil uil-comment-dots"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+             
+        </div>
+        <div class="Bookmaker">
+            <span><i class="uil uil-bookmark-full"></i></span>
+
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="img/profil10.jpg"></span>
+        <span><img src="img/profil4.jpg"></span>
+        <span><img src="img/profil15.jpg"></span>
+        <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+    </div>
+    <div class="caption">
+        <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+    </div>
+    <div class="comments text-muted">view all 50 comments</div>
+</div>
+
+<div class="feed">
+    <div class="head">
+        <div class=""user">
+        <div class="profile-photo">
+            <img src="img/img12.jpg">
+        </div>
+        <div class="ingo">
+            <h3> divya </h3>
+            <small> hongkong, 15 minutes ago</small>
+        </div>
+        
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo"
+    <image src="img/feeds1.jpg">
+
+</div>
+<div class="action-button">
+    <div class="interaction-buttons">
+        <span><i class="uil uil-heart"></i></span>
+        <span><i class="uil uil-comment-dots"></i></span>
+        <span><i class="uil uil-share-alt"></i></span>
+         
+    </div>
+    <div class="Bookmaker">
+        <span><i class="uil uil-bookmark-full"></i></span>
+
+    </div>
+</div>
+<div class="liked-by">
+    <span><img src=">img/profil10.jpg"></span>
+    <span><img src="img/profil4.jpg"></span>
+    <span><img src="img/profil15.jpg"></span>
+    <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+</div>
+<div class="caption">
+    <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+</div>
+<div class="comments text-muted">view all 50 comments</div>
+</div>
+
+<div class="feed">
+    <div class="head">
+        <div class=""user">
+        <div class="profile-photo">
+            <img src="img/img12.jpg">
+        </div>
+        <div class="ingo">
+            <h3> rupa </h3>
+            <small> Dubai, 15 minutes ago</small>
+        </div>
+        
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo"
+    <image src="img/feeds1.jpg">
+
+</div>
+<div class="action-button">
+    <div class="interaction-buttons">
+        <span><i class="uil uil-heart"></i></span>
+        <span><i class="uil uil-comment-dots"></i></span>
+        <span><i class="uil uil-share-alt"></i></span>
+         
+    </div>
+    <div class="Bookmaker">
+        <span><i class="uil uil-bookmark-full"></i></span>
+
+    </div>
+</div>
+<div class="liked-by">
+    <span><img src=">img/profil10.jpg"></span>
+    <span><img src="img/profil4.jpg"></span>
+    <span><img src="img/profil15.jpg"></span>
+    <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+</div>
+<div class="caption">
+    <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+</div>
+<div class="comments text-muted">view all 50 comments</div>
+</div>
+
+<div class="feed">
+    <div class="head">
+        <div class=""user">
+        <div class="profile-photo">
+            <img src="img/img12.jpg">
+        </div>
+        <div class="ingo">
+            <h3> nick </h3>
+            <small> usa, 15 minutes ago</small>
+        </div>
+        
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo"
+    <image src="img/feeds1.jpg">
+
+</div>
+<div class="action-button">
+    <div class="interaction-buttons">
+        <span><i class="uil uil-heart"></i></span>
+        <span><i class="uil uil-comment-dots"></i></span>
+        <span><i class="uil uil-share-alt"></i></span>
+         
+    </div>
+    <div class="Bookmaker">
+        <span><i class="uil uil-bookmark-full"></i></span>
+
+    </div>
+</div>
+<div class="liked-by">
+    <span><img src="img/profil10.jpg"></span>
+    <span><img src="img/profil4.jpg"></span>
+    <span><img src="img/profil15.jpg"></span>
+    <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+</div>
+<div class="caption">
+    <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+</div>
+<div class="comments text-muted">view all 50 comments</div>
+</div>
+
+<div class="feed">
+    <div class="head">
+        <div class=""user">
+        <div class="profile-photo">
+            <img src="img/img12.jpg">
+        </div>
+        <div class="ingo">
+            <h3> john </h3>
+            <small> Dubai, 20 minutes ago</small>
+        </div>
+        
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo"
+    <image src="img/feeds1.jpg">
+
+</div>
+<div class="action-button">
+    <div class="interaction-buttons">
+        <span><i class="uil uil-heart"></i></span>
+        <span><i class="uil uil-comment-dots"></i></span>
+        <span><i class="uil uil-share-alt"></i></span>
+         
+    </div>
+    <div class="Bookmaker">
+        <span><i class="uil uil-bookmark-full"></i></span>
+
+    </div>
+</div>
+<div class="liked-by"> 
+    <span><img src="img/profil10.jpeg"></span>
+    <span><img src="img/profil4.jpeg"></span>
+    <span><img src="img/profil15.jpeg"></span>
+    <p>Liked by <b> pooja</b>and <b>2,323 others</b></p>
+</div>
+<div class="caption">
+    <p><b>rakshitha</b> beautiful. <span class="harsh-tag">#lifestyle</span></p>
+
+</div>
+<div class="comments text-muted">view all 50 comments</div>
+</div>
+<!-------end of feed!-->
+</div>
+<!------end of feeds----->
+</div>
+<!------end of middle------>
+
+
+
+            <!----right-->
+            <div class="right">
+                <div class="Message">
+                    <div class="heading">
+                        <h4>Message</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!----search bar---->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="search Message" id="Message-search">
+
+                    </div>
+                    <!-----message---->
+                    <div class-"category">
+                          <h6 class="active">Primary</h6>
+                          <h6>General</h6>
+                        <h6 class="message-requests" >Requests(7)</h6>
+</div>
+<!------------ MESSAGE---->
+<div class="message">
+div class-"profile-photo">
+<img src="img/img17.jpeg">
+</div>
+<div class="message-body">
+<h5>Edem Quist</h5>
+<p class="text-muted">Just woke up</p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    <!----end of message-->
+    
+    <!-----friend request-->
+    <div class="friend-requests">
+    <h4>Requests</h4>
+     <div class="request">
+<div class="info">
+<div class="profile-photo">
+<img src="img/img11.jpeg">
+</div>
+<div>
+<h5>Hajia Bintu</h5>
+<p class="text-muted">
+8 mutual friends
+</p> 
+<div class="action">
+<button class="btn btn-primary">
+Accept
+</button>
+<button class="btn">
+     Decline
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </main>
+
+
+</body>
+</html>
